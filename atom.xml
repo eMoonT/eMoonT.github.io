@@ -5,9 +5,9 @@
   <subtitle>记录生活中的点点滴滴</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://xians-L.github.io/"/>
   <updated>2019-05-28T15:09:27.675Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://xians-L.github.io/</id>
   
   <author>
     <name>xians</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/05/28/hello-world/"/>
-    <id>http://yoursite.com/2019/05/28/hello-world/</id>
+    <link href="https://xians-L.github.io/2019/05/28/hello-world/"/>
+    <id>https://xians-L.github.io/2019/05/28/hello-world/</id>
     <published>2019-05-28T15:09:27.675Z</published>
     <updated>2019-05-28T15:09:27.675Z</updated>
     
