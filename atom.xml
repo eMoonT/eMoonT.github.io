@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xians-L.github.io/"/>
-  <updated>2019-05-29T15:17:56.868Z</updated>
+  <updated>2019-05-30T03:28:44.313Z</updated>
   <id>https://xians-L.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>github：从零开始构建hexo</title>
-    <link href="https://xians-L.github.io/2019/05/29/github%EF%BC%9A%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%9E%84%E5%BB%BAhexo/"/>
-    <id>https://xians-L.github.io/2019/05/29/github： 从零开始构建hexo/</id>
+    <title>Git命令基本操作</title>
+    <link href="https://xians-L.github.io/2019/05/30/Git%E5%91%BD%E4%BB%A4%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>https://xians-L.github.io/2019/05/30/Git命令基本操作/</id>
+    <published>2019-05-30T02:28:35.000Z</published>
+    <updated>2019-05-30T03:28:44.313Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Git命令基本操作"><a href="#Git命令基本操作" class="headerlink" title="Git命令基本操作"></a>Git命令基本操作</h2><h5 id="本地库初始化"><a href="#本地库初始化" class="headerlink" title="本地库初始化"></a>本地库初始化</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir &quot;flie name&quot; #  新建本地库</span><br><span class="line">git init # 初始化本地库</span><br></pre></td></tr></table></figure><h5 id="设置签名"><a href="#设置签名" class="headerlink" title="设置签名"></a>设置签名</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name 用户名</span><br><span class="line">git config --global user.email 邮箱</span><br><span class="line">## 区分不同开发人员的身份</span><br></pre></td></tr></table></figure><h5 id="本地库提交的状态"><a href="#本地库提交的状态" class="headerlink" title="本地库提交的状态"></a>本地库提交的状态</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><h5 id="写入文件并提交至工作区"><a href="#写入文件并提交至工作区" class="headerlink" title="写入文件并提交至工作区"></a>写入文件并提交至工作区</h5><figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vim <span class="string">"flie name"</span>  ##　使用vim命令创建文件</span><br><span class="line">git add <span class="string">"flie name"</span>  ##　提交至暂存区</span><br><span class="line">git rm --cached <span class="string">"flie name"</span> ##　移出暂存区</span><br><span class="line">git commit　－ｍ　＂提交信息＂ <span class="string">"flie name"</span> ## 提交至工作区</span><br></pre></td></tr></table></figure><h2 id="版本穿梭"><a href="#版本穿梭" class="headerlink" title="版本穿梭"></a>版本穿梭</h2><h5 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git log ## 查看日志</span><br><span class="line">git log --pretty=online ## 简洁的日志信息</span><br><span class="line">git reflog ## 查看日志的另一个方法</span><br></pre></td></tr></table></figure><h5 id="前进后退"><a href="#前进后退" class="headerlink" title="前进后退"></a>前进后退</h5><ul><li><p>基于索引值(推荐)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reflog ##　查看一下日志,复制第一列的索引值</span><br><span class="line">git reset --hard [索引值]</span><br></pre></td></tr></table></figure></li><li><p>使用^</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gti reset --hard HEAD^ ## 表示往回退一步</span><br><span class="line">git reset --hard HEAD^^ ## 同理往回退两步，以此类推</span><br><span class="line">## 该操作只能回退</span><br></pre></td></tr></table></figure></li><li><p>使用~</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard HEAD~3 ## 回退三步</span><br><span class="line">## 该操作只能回退</span><br></pre></td></tr></table></figure></li></ul><h5 id="删除文件并找回"><a href="#删除文件并找回" class="headerlink" title="删除文件并找回"></a>删除文件并找回</h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Git命令基本操作&quot;&gt;&lt;a href=&quot;#Git命令基本操作&quot; class=&quot;headerlink&quot; title=&quot;Git命令基本操作&quot;&gt;&lt;/a&gt;Git命令基本操作&lt;/h2&gt;&lt;h5 id=&quot;本地库初始化&quot;&gt;&lt;a href=&quot;#本地库初始化&quot; class=&quot;head
+      
+    
+    </summary>
+    
+      <category term="github" scheme="https://xians-L.github.io/categories/github/"/>
+    
+    
+      <category term="新人向" scheme="https://xians-L.github.io/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
+    
+      <category term="学习记录" scheme="https://xians-L.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github：从零开始构建hexo</title>
+    <link href="https://xians-L.github.io/2019/05/29/Github%EF%BC%9A%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%9E%84%E5%BB%BAhexo/"/>
+    <id>https://xians-L.github.io/2019/05/29/Github： 从零开始构建hexo/</id>
     <published>2019-05-29T10:11:25.000Z</published>
-    <updated>2019-05-29T15:17:56.868Z</updated>
+    <updated>2019-05-30T02:22:16.333Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​    记录一下本人搭建这博客所遇到的情况，算是一篇填坑之作。</p><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h5 id="安装git"><a href="#安装git" class="headerlink" title="安装git:"></a>安装git:</h5><p><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a></p><h5 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js:"></a>安装node.js:</h5><p><a href="http://nodejs.cn/" target="_blank" rel="noopener">node.js</a></p><p>安装过程就不赘述了，一路默认安装即可</p><h5 id="github上新建一个仓库"><a href="#github上新建一个仓库" class="headerlink" title="github上新建一个仓库:"></a>github上新建一个仓库:</h5><p><img src="https://i.loli.net/2019/05/29/5cee8bf9a8f0227567.png" alt="TIM截图20190529214020.png"></p><h5 id="生成shh密钥"><a href="#生成shh密钥" class="headerlink" title="生成shh密钥:"></a>生成shh密钥:</h5><p>鼠标右击 打开 Git Bash Here</p><pre><code>cd ~/.ssh</code></pre><p>如果提示: No such file or directory 说明你还没有生成过密钥</p><pre><code>ssh-key -t ras -C &quot;github邮箱地址&quot;</code></pre><p>连续回车3次，之后会生成一个id_ras.pub的文件，我们敲下的命令就会复制里面的内容</p><pre><code>clip &lt; ~/.ssh/id_rsa.pub</code></pre><p>之后我们点击头像找到设置  &gt; SSH and GPG keys &gt; New SSH key &gt; 粘贴刚刚复制的密钥<br>通过如下命令测试是否成功</p><pre><code>ssh -T git@github.com</code></pre><p><img src="https://i.loli.net/2019/05/29/5cee933b8969e28590.png" alt="TIM截图20190529221149.png"><br>成功如上图</p><p>至此前期的准备工作已经完成了，相信看到这里的朋友已经完成了全部的操作了。</p><h2 id="部署hexo"><a href="#部署hexo" class="headerlink" title="部署hexo"></a>部署hexo</h2><p>使用如下命令检测环境是否正常</p><pre><code>npm -v</code></pre><p>安装hexo</p><pre><code>npm install hexo-cli -g</code></pre><p>这里windows环境下我推荐用cmd 安装，我在这里安装hexo 出现了很多问题，用cmd就啥事了</p><blockquote><p>接下来我们需要创建一个文件夹，注意这个文件夹很重要，之后的大部分操作都需要在这个文件里，包括以后博客的维护，切记切记。</p></blockquote><p>完成后我们进入这个文件夹，鼠标右击 打开 Git Bash Here</p><pre><code>hexo init # 初始化配置hexo s # 启动本地服务</code></pre><p>在浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 就可以访问刚刚创建的博客了。</p><h2 id="链接github仓库"><a href="#链接github仓库" class="headerlink" title="链接github仓库"></a>链接github仓库</h2><p>依次输入下面的命令</p><pre><code>npm install hexo-deployer-git --savegit config --global user.name github用户名git config --global user.email github邮箱</code></pre><p>接着输入</p><pre><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></pre><p>打开你的浏览器输入你的github用户名.github.io </p><p>大功告成！！！</p><p>关于博客的一些基本配置和主题美化，我将会在下一篇博客中具体讲解。</p>]]></content>
     
@@ -38,11 +65,11 @@
       <category term="hexo" scheme="https://xians-L.github.io/categories/hexo/"/>
     
     
+      <category term="新人向" scheme="https://xians-L.github.io/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
+    
       <category term="hexo" scheme="https://xians-L.github.io/tags/hexo/"/>
     
       <category term="博客" scheme="https://xians-L.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="新人向" scheme="https://xians-L.github.io/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
     
   </entry>
   
