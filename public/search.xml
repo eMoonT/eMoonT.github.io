@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>JavaScript 简记</title>
+      <link href="/JavaScript-%E7%AE%80%E8%AE%B0.html"/>
+      <url>/JavaScript-%E7%AE%80%E8%AE%B0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="JavaScript-简记"><a href="#JavaScript-简记" class="headerlink" title="JavaScript 简记"></a>JavaScript 简记</h1><h2 id="基本类型——数组"><a href="#基本类型——数组" class="headerlink" title="基本类型——数组"></a>基本类型——数组</h2><h5 id="数组的定义"><a href="#数组的定义" class="headerlink" title="数组的定义"></a>数组的定义</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> arr1 = []; <span class="comment">//创建一个空数组</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> arr2 = [<span class="number">1</span>,<span class="number">3</span>,<span class="number">4</span>]; <span class="comment">//创建一个有3个数值的数组，以逗号隔开</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> arr3 = [<span class="string">'a'</span>, <span class="string">'b'</span>];  <span class="comment">//创建一个包含字符串的数组</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(arr3.lenght); <span class="comment">//可以通过lenght属性获取字符串的长度</span></span><br><span class="line"></span><br><span class="line">arr.lenght = <span class="number">0</span>; <span class="comment">//可以改变数组中元素的个数</span></span><br></pre></td></tr></table></figure><h5 id="获取数组元素"><a href="#获取数组元素" class="headerlink" title="获取数组元素"></a>获取数组元素</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//格式：数组名[下标]</span></span><br><span class="line"><span class="comment">//功能：获取对应下标的那个值，如果下标不存在，则返回undefined</span></span><br><span class="line"><span class="keyword">let</span> arr = [<span class="string">'red'</span>, <span class="string">'green'</span>, <span class="string">'blue'</span>];</span><br><span class="line"><span class="built_in">console</span>.log(arr[<span class="number">0</span>]); <span class="comment">//red</span></span><br><span class="line"><span class="built_in">console</span>.log(arr[<span class="number">2</span>]); <span class="comment">//blue</span></span><br><span class="line"><span class="built_in">console</span>.log(arr[<span class="number">3</span>]); <span class="comment">//undefined</span></span><br></pre></td></tr></table></figure><h5 id="遍历数组"><a href="#遍历数组" class="headerlink" title="遍历数组"></a>遍历数组</h5><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i=<span class="number">0</span>; i&lt;arr.length<span class="number">-1</span>; i++)&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(arr[i]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> coding </tag>
+            
+            <tag> 学习日记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git命令基本操作</title>
       <link href="/Git%E5%91%BD%E4%BB%A4%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.html"/>
       <url>/Git%E5%91%BD%E4%BB%A4%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.html</url>

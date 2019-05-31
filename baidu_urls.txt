@@ -1,2 +1,3 @@
+https://xingmel.top/JavaScript-简记.html
 https://xingmel.top/Git命令基本操作.html
 https://xingmel.top/Github从零开始构建hexo.html
