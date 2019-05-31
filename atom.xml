@@ -5,9 +5,9 @@
   <subtitle>记录生活中的点点滴滴</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://xians-L.github.io/"/>
+  <link href="https://xingmel.top/"/>
   <updated>2019-05-30T04:21:27.519Z</updated>
-  <id>https://xians-L.github.io/</id>
+  <id>https://xingmel.top/</id>
   
   <author>
     <name>xians</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Git命令基本操作</title>
-    <link href="https://xians-L.github.io/2019/05/30/Git%E5%91%BD%E4%BB%A4%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
-    <id>https://xians-L.github.io/2019/05/30/Git命令基本操作/</id>
+    <link href="https://xingmel.top/2019/05/30/Git%E5%91%BD%E4%BB%A4%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>https://xingmel.top/2019/05/30/Git命令基本操作/</id>
     <published>2019-05-30T02:28:35.000Z</published>
     <updated>2019-05-30T04:21:27.519Z</updated>
     
@@ -34,19 +34,19 @@
     
     </summary>
     
-      <category term="github" scheme="https://xians-L.github.io/categories/github/"/>
+      <category term="github" scheme="https://xingmel.top/categories/github/"/>
     
     
-      <category term="新人向" scheme="https://xians-L.github.io/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
+      <category term="新人向" scheme="https://xingmel.top/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
     
-      <category term="学习记录" scheme="https://xians-L.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="https://xingmel.top/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>Github从零开始构建hexo</title>
-    <link href="https://xians-L.github.io/2019/05/29/Github%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%9E%84%E5%BB%BAhexo/"/>
-    <id>https://xians-L.github.io/2019/05/29/Github从零开始构建hexo/</id>
+    <link href="https://xingmel.top/2019/05/29/Github%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%9E%84%E5%BB%BAhexo/"/>
+    <id>https://xingmel.top/2019/05/29/Github从零开始构建hexo/</id>
     <published>2019-05-29T10:11:25.000Z</published>
     <updated>2019-05-31T04:53:59.361Z</updated>
     
@@ -62,14 +62,14 @@
     
     </summary>
     
-      <category term="hexo" scheme="https://xians-L.github.io/categories/hexo/"/>
+      <category term="hexo" scheme="https://xingmel.top/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="https://xians-L.github.io/tags/hexo/"/>
+      <category term="新人向" scheme="https://xingmel.top/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
     
-      <category term="博客" scheme="https://xians-L.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="hexo" scheme="https://xingmel.top/tags/hexo/"/>
     
-      <category term="新人向" scheme="https://xians-L.github.io/tags/%E6%96%B0%E4%BA%BA%E5%90%91/"/>
+      <category term="博客" scheme="https://xingmel.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
