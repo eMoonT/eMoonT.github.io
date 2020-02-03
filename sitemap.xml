@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xingmel.top/about/index.html</loc>
+    
+    <lastmod>2020-02-03T11:59:42.987Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://xingmel.top/Github%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%9E%84%E5%BB%BAhexo.html</loc>
     
     <lastmod>2020-02-03T11:01:47.280Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://xingmel.top/categories/index.html</loc>
     
     <lastmod>2019-05-29T10:36:51.624Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xingmel.top/about/index.html</loc>
-    
-    <lastmod>2019-05-29T09:51:10.739Z</lastmod>
     
   </url>
   
